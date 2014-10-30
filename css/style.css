@@ -1,0 +1,144 @@
+
+
+body{
+    
+    background-color:greenyellow;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    max-width: 100%;
+    background: black;
+    min-height: 100px;
+    height: 100px;
+    position:relative;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    font-family: Alieron-Heavy;
+
+}
+
+#wrapper{
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: greenyellow;
+    margin: 0 auto;
+}
+
+#nav-bar{
+    list-style: none;
+    display: block;
+    float: right;
+    margin-top: 0px;
+}
+
+#nav-bar-list{
+    margin: 0px;
+    padding: 0px;
+    height: 75px;
+}
+
+
+.nav-bar-item{
+    float: left;
+    text-align: center;
+    display:inline-block;
+    transition: background-color 0.3s ease;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 30px;
+    margin: 10px;
+}
+nav ul a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* Div del contenedor de la imagen con mensaje*/
+#main-info{
+    height: 530px;
+    margin: 0px;
+    position: relative;
+    background: url("../src/pattern2.gif") repeat;
+    display: block;
+}
+
+
+#Skills{
+    height: 500px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    display: block;
+}
+
+/*Envoltorios de información de cada sección*/
+#wrapper-content-main{
+    display: block;
+    height: 100%;
+    position: relative;
+    max-width: 1220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+#wrapper-skills{
+    display: block;
+    height: 100%;
+    position: relative;
+    max-width: 1220px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+/*Esto es la envoltura que contiene la información que se muestra en el main info*/
+.wrapper-info{
+    position: absolute;
+    bottom: 70px;
+    max-width: 560px;
+    display: block;
+}
+.main-info-title{
+    font-family: Alieron-Heavy;
+    background-color:black;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+.main-info-subtitle{
+    font-family: Alieron-Thin;
+    background: #12101B;
+    color:#fff;
+    border-radius: 3px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Hover Section*/
+nav li:hover{
+    background: darkmagenta;
+    position: relative;
+}
+
+
+@font-face{
+    font-family: Alieron-Heavy;
+    src: url(../src/Aileron-Heavy.otf)
+}
+
+@font-face{
+    font-family: Alieron-Thin;
+    src: url(../src/Aileron-Thin.otf)
